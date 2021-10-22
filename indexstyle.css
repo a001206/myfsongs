@@ -13,9 +13,15 @@ ol{
     font-size: 22px;
     text-align: center;
     width: 250px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 ul{
     font-size: 45px;
-    text-align: center;
     width: 250px;
+    text-align: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
