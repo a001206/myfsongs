@@ -12,6 +12,9 @@ h1{
     margin: 0;
     padding:40px;
 }
+.in{
+    color:burlywood;
+}
 #grid{
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -19,13 +22,17 @@ h1{
 #grid ol{
     font-size: 20px;
     border-right: 1px solid gray;
+    border-left: 1px solid gray;
     width: 150px;
     margin: 0;
+    margin-left: 145px;
     padding: 20px;
     padding-left: 50px;
+    padding-top: 36px;
 }
 #grid #article{
-    padding-left: 120px;
+    padding-left: 260px;
+    padding-top: 14px;
 }
 @media(max-width:850px){
     #grid{

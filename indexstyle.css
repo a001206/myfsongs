@@ -11,17 +11,21 @@ h1{
 }
 ol{
     font-size: 22px;
+    width: 400px;
     text-align: center;
-    width: 250px;
-    display: table;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 17px;
+    list-style-type: none;
 }
 ul{
     font-size: 45px;
-    width: 250px;
+    width: 200px;
     text-align: center;
     display: table;
     margin-left: auto;
     margin-right: auto;
+    list-style-type: none;
+    padding-left: 0px;
 }
