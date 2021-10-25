@@ -40,6 +40,8 @@ h1{
 }
 #grid ol{
     border-right: none;
+    border-left: none;
+    margin-left: 0;
 }
 #grid #article{
     padding-left: 35px;

@@ -5,9 +5,39 @@
     <title>내가 사랑하는 KPOP</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../indexstyle.css">
+    <script>
+        function BodyBackColor(color){
+            document.querySelector('body').style.backgroundColor = color;
+        }
+
+        function LinksSetColor(color){
+            var alist = document.querySelectorAll('a');
+            var i =0;
+
+            while(i < alist.length){
+                alist[i].style.color = color;
+                i++;
+            }
+        }
+
+        function NightDayHandler(self){
+            if(self.value === 'night'){
+                BodyBackColor('black');
+                LinksSetColor('white');
+                self.value = 'day';
+            }else{
+                BodyBackColor('white');
+                LinksSetColor('black');
+                self.value = 'night';
+            }
+        }
+    </script>
 </head>
 
 <body>
+    <input type="button" value = "night" onclick= "
+    NightDayHandler(this);
+    ">
     <h1><a href="../../index.html">My favorite Kpop songs!</a></h1>
     <ol>
         <li><a href="wewant.html">알레프 - 우리가 바라는 우리의 모습은</a></li>
